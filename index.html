@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Import the component -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+    <!-- Use it like any other HTML element -->
+    <model-viewer <!-- Import the component -->
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    
+    <model-viewer src="./NeilArmstrong.glb" ar ar-scale="fixed" camera-controls
+    alt="A 3D model of an astronaut" skybox-image="./spruit_sunrise_1k.hdr"
+    ios-src="./NeilArmstrong.glb" xr-environment></model-viewer>
+</div>
+    
+</body>
+
+</html>
+
+<style>
+    model-viewer {
+        width: 300px;
+        height: 200px;
+    }
+</style>
